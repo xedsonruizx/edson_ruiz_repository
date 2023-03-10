@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="{{ asset('css/sidebar.css') }}">
     <link rel="stylesheet" href="{{ asset('css/body.css') }}">
     <link href="{{ asset('scss/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/fontawesome-free-6.3.0-web/css/fontawesome.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/fontawesome-free-6.3.0-web/css/brands.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/fontawesome-free-6.3.0-web/css/solid.css') }}" rel="stylesheet">
 
+    <!-- <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"> -->
 
 </head>
 
@@ -20,7 +25,8 @@
             <i class="bx bx-menu" id="header-toggle"></i>
         </div>
         <div class="pe-4 fw-bolder">
-            Bienvenido <span class="d-none d-md-inline">a mí repositorio</span>
+            Bienvenido <span class="d-none d-md-inline">a mí repositorio </span>
+            
         </div>
     </header>
     <div class="l-navbar" id="nav-bar">
@@ -65,7 +71,7 @@
     </div>
     <div class=" cuerpo">
 
-        
+
         <!-- @include('secciones.about_me') -->
         @include('secciones.my_proyects')
 
