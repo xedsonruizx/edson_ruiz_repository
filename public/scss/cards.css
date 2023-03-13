@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightsteelblue;
+  background-color: white;
 }
 
 .card .content {
@@ -32,6 +32,7 @@ body {
 
 .card {
   max-width: 300px;
+  min-width: 260px;
   height: 400px;
   position: relative;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -123,6 +124,11 @@ body {
   outline: none;
   cursor: pointer;
   transition: background 0.3s ease;
+}
+
+.button.disabled, .button:disabled, fieldset:disabled .button {
+  pointer-events: none;
+  opacity: 0.65;
 }
 
 .card .content button:hover {
