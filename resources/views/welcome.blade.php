@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="{{ asset('css/sidebar.css') }}">
     <link rel="stylesheet" href="{{ asset('css/body.css') }}">
     <link href="{{ asset('scss/style.css') }}" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="{{asset('assets/imgfavicon-32x32.png')}}">
     <link href="{{ asset('assets/fontawesome-free-6.3.0-web/css/fontawesome.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/fontawesome-free-6.3.0-web/css/brands.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/fontawesome-free-6.3.0-web/css/solid.css') }}" rel="stylesheet">
