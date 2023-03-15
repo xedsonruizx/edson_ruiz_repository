@@ -52,6 +52,33 @@
                 </div>
             </div>
             <!-- second card -->
+            
+            <div class="card">
+                <div class="elms-animation">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="three"></span>
+                    <span class="four"></span>
+                </div>
+                <img src="{{ asset('assets/img/secondChallenge.png') }}" alt="">
+                <div class="content">
+
+                    <div class="d-block text-center">
+                        <div><span class="text-white"><strong>Card Product </strong><br> HTML + CSS
+                            </span></div>
+                        <div class="my-3"> <a href="https://github.com/xedsonruizx/Product-preview-card-component" target="_blank"
+                                class="text-decoration-none text-white">
+                                <i class="fa-brands fa-github fs-4"></i></a>
+                        </div>
+                        <div>
+                            <a href="https://xedsonruizx.github.io/Product-preview-card-component/"
+                                target="_blank"><button>Visualizar</button></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- third card -->
             <div class="card" style="background: #0e1011;">
                 <div class="elms-animation">
                     <span class="one"></span>
