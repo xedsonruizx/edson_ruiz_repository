@@ -17,8 +17,13 @@ File: scss
  *	8. Custom Templates
  */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
-.red {
-  background-color: red;
+.navs {
+  flex-direction: row !important;
+}
+
+.tab-content > .active {
+  display: flex;
+  width: 100%;
 }
 
 .presentation-proyects {
@@ -256,6 +261,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .container {
@@ -263,6 +269,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 30px 0;
+  border-radius: 10px;
 }
 
 .cards-container {
@@ -272,6 +279,7 @@ body {
   flex-wrap: wrap;
   padding-left: 15px;
   padding-right: 15px;
+  border-radius: 10px;
 }
 
 .card {
@@ -282,6 +290,7 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   margin: 25px 0;
   width: 30%;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 700px) {
@@ -296,6 +305,7 @@ body {
 }
 .card .elms-animation,
 .card .content {
+  border-radius: 10px;
   position: absolute;
   top: 0;
   left: 0;
@@ -318,21 +328,25 @@ body {
 .card .elms-animation span.one {
   top: 0;
   left: 0;
+  border-top-left-radius: 10px;
 }
 
 .card .elms-animation span.two {
   top: 0;
   right: 0;
+  border-top-right-radius: 10px;
 }
 
 .card .elms-animation span.three {
   left: 0;
   bottom: 0;
+  border-bottom-left-radius: 10px;
 }
 
 .card .elms-animation span.four {
   right: 0;
   bottom: 0;
+  border-bottom-right-radius: 10px;
 }
 
 .card:hover .elms-animation span {
@@ -348,6 +362,7 @@ body {
   -o-object-position: center;
      object-position: center;
   display: block;
+  border-radius: 10px;
 }
 
 .card .content {

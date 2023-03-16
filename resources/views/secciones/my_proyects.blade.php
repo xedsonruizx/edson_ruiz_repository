@@ -17,146 +17,29 @@
 </div>
 <main>
     <div class="container">
+
+        <!-- <nav class="cards-container">
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link  active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+            </div>
+        </nav> -->
+
+
+
         <div class="cards-container">
-            <button class="btn btn-primary proyect-tabs col-4 px-2 mt-md-0 mt-2">Html y Css</button>
-            <button class="btn btn-primary proyect-tabs  col-4 px-2 mt-md-0 mt-2">React js y Vue js</button>
-            <button class="btn btn-primary proyect-tabs  col-4 px-2 mt-lg-0 mt-2" >Laravel</button>
+            <div class="nav nav-tabs navs" id="nav-tab" role="tablist">
+                <button class="btn btn-primary proyect-tabs col-4 px-2 mt-md-0 mt-2 nav-link  active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Html y Css Vanilla</button>
+                <button class="btn btn-primary proyect-tabs  col-4 px-2 mt-md-0 mt-2  nav-link  " id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">React js y Vue js</button>
+                <button class="btn btn-primary proyect-tabs  col-4 px-2 mt-lg-0 mt-2 nav-link  " id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Laravel</button>
+            </div>
         </div>
-
-        <!-- CARDS -->
-        <div class="cards-container">
-            <!-- first card -->
-            <div class="card">
-                <div class="elms-animation">
-                    <span class="one"></span>
-                    <span class="two"></span>
-                    <span class="three"></span>
-                    <span class="four"></span>
-                </div>
-                <img src="{{ asset('assets/img/qr.png') }}" alt="">
-                <div class="content">
-
-                    <div class="d-block text-center">
-                        <div><span class="text-white"><strong>QR challenge </strong><br> HTML + CSS
-                            </span></div>
-                        <div class="my-3"> <a href="https://github.com/xedsonruizx/QrChallenge/tree/QR" target="_blank"
-                                class="text-decoration-none text-white">
-                                <i class="fa-brands fa-github fs-4"></i></a>
-                        </div>
-                        <div>
-                            <a href="https://xedsonruizx.github.io/QrChallenge/"
-                                target="_blank"><button>Visualizar</button></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- second card -->
-            
-            <div class="card">
-                <div class="elms-animation">
-                    <span class="one"></span>
-                    <span class="two"></span>
-                    <span class="three"></span>
-                    <span class="four"></span>
-                </div>
-                <img src="{{ asset('assets/img/secondChallenge.png') }}" alt="">
-                <div class="content">
-
-                    <div class="d-block text-center">
-                        <div><span class="text-white"><strong>Card Product </strong><br> HTML + CSS
-                            </span></div>
-                        <div class="my-3"> <a href="https://github.com/xedsonruizx/Product-preview-card-component" target="_blank"
-                                class="text-decoration-none text-white">
-                                <i class="fa-brands fa-github fs-4"></i></a>
-                        </div>
-                        <div>
-                            <a href="https://xedsonruizx.github.io/Product-preview-card-component/"
-                                target="_blank"><button>Visualizar</button></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- third card -->
-            <div class="card" style="background: #0e1011;">
-                <div class="elms-animation">
-                    <span class="one"></span>
-                    <span class="two"></span>
-                    <span class="three"></span>
-                    <span class="four"></span>
-                </div>
-                <img src="{{ asset('assets/img/react_crud.png') }}" alt="" style="object-fit:contain !important">
-                <div class="content">
-                    <!-- first card -->
-                    <div class="d-block text-center">
-                        <div><span class="text-white"><strong>Simple Crud</strong> <br> React + Node + Postgre SQL
-                            </span></div>
-                        <div class="my-3 row"> 
-                                <div class="col-6"><a href="https://gitlab.com/edsonruizsalinas/challengetcitback" target="_blank"
-                                class="text-decoration-none text-white">
-                                Back End <br>
-                                <i class="fa-brands fa-github fs-4"></i></a></div>
-                                <div class="col-6"><a href="https://gitlab.com/edsonruizsalinas/challengetcitfront" target="_blank"
-                                class="text-decoration-none text-white">
-                                Front End <br>
-                                <i class="fa-brands fa-github fs-4"></i></a></div>
-                        </div>  
-                        <div class="">
-                            <a 
-                                target="_blank"><button class="btn" disabled>Visualizar</button></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="card">
-                <div class="elms-animation">
-                    <span class="one"></span>
-                    <span class="two"></span>
-                    <span class="three"></span>
-                    <span class="four"></span>
-                </div>
-                <img src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                    alt="" />
-                <div class="content">
-                    <button>Discover</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="elms-animation">
-                    <span class="one"></span>
-                    <span class="two"></span>
-                    <span class="three"></span>
-                    <span class="four"></span>
-                </div>
-                <img src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60"
-                    alt="" />
-                <div class="content">
-                    <button>Discover</button>
-                </div>
-            </div>
+        <div class="tab-content d-flex" id="nav-tabContent">
+            @include('secciones.my_proyects_folder.vanilla')
+            @include('secciones.my_proyects_folder.react')
+            @include('secciones.my_proyects_folder.laravel')
         </div>
     </div>
 </main>
 @endsection
-@push('scripts')
-<script>
-const triggerTabList = document.querySelectorAll('#myTab button')
-triggerTabList.forEach(triggerEl => {
-    const tabTrigger = new bootstrap.Tab(triggerEl)
-
-    triggerEl.addEventListener('click', event => {
-        event.preventDefault()
-        tabTrigger.show()
-    })
-})
-
-
-const triggerEl = document.querySelector('#myTab button[data-bs-target="#profile"]')
-bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-
-const triggerFirstTabEl = document.querySelector('#myTab li:first-child button')
-bootstrap.Tab.getInstance(triggerFirstTabEl).show() // Select first tab
-</script>
-@endpush
