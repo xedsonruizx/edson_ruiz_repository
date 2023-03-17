@@ -61,7 +61,7 @@
             <div class="content">
 
                 <div class="d-block text-center">
-                    <div><span class="text-white"><strong>Card Product </strong><br> HTML + CSS
+                    <div><span class="text-white"><strong>Card Summary </strong><br> HTML + CSS 
                         </span></div>
                     <div class="my-3"> <a href="https://github.com/xedsonruizx/results-summary-challenge-3" target="_blank" class="text-decoration-none text-white">
                             <i class="fa-brands fa-github fs-4"></i></a>
@@ -85,13 +85,39 @@
             <div class="content">
 
                 <div class="d-block text-center">
-                    <div><span class="text-white"><strong>NTF Card </strong><br> HTML + CSS
+                    <div><span class="text-white"><strong>NTF Card with hover animation</strong><br> HTML + CSS
                         </span></div>
                     <div class="my-3"> <a href="https://github.com/xedsonruizx/NFT-preview-card-component" target="_blank" class="text-decoration-none text-white">
                             <i class="fa-brands fa-github fs-4"></i></a>
                     </div>
                     <div>
                         <a href="https://xedsonruizx.github.io/NFT-preview-card-component/" target="_blank"><button>Visualizar</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+         <!-- fiveth card -->
+         <div class="card">
+            <div class="elms-animation">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+                <span class="four"></span>
+            </div>
+            <img src="{{ asset('assets/img/music.png') }}" alt="">
+            <div class="content">
+
+                <div class="d-block text-center">
+                    <div><span class="text-white"><strong>Order-Card</strong><br> HTML + CSS
+                        </span></div>
+                    <div class="my-3"> <a href="https://github.com/xedsonruizx/Order-summary-component" target="_blank" class="text-decoration-none text-white">
+                            <i class="fa-brands fa-github fs-4"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://xedsonruizx.github.io/Order-summary-component/" target="_blank"><button>Visualizar</button></a>
                     </div>
                 </div>
 
