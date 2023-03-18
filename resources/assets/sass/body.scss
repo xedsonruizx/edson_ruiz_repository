@@ -1,0 +1,24 @@
+
+.presentation-proyects{
+    background-color: var(--thirdh-color);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    text-size-adjust: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.proyect-tabs{
+    max-width: 300px;
+    min-width: 260px;
+    width: 30%;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .presentation-proyects{
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        padding: 20px;
+        max-width: 500px;
+    }
+}
+

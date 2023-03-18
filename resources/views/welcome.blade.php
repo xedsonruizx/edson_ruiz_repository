@@ -17,7 +17,8 @@
     <link href="{{ asset('assets/fontawesome-free-6.3.0-web/css/fontawesome.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/fontawesome-free-6.3.0-web/css/brands.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/fontawesome-free-6.3.0-web/css/solid.css') }}" rel="stylesheet">
-
+    
+    @vite(['resources//assets/sass/app.scss', 'resources/js/app.js'])
 </head>
 
 <body id="body-pd">

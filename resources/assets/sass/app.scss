@@ -1,2 +1,21 @@
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+
+ @import 'variable';
+//  @import 'app';
+ @import 'body';
+ @import 'sidebar';
+ @import 'cards';
+ @import 'background';
+//  @import 'responsive';
+//  @import 'material';
+//  @import '../css/spinners.css';
+//  @import '../css/animate.css';
+.navs {
+    flex-direction: row !important;
+  }
+  .tab-content>.active {
+    display: flex;
+    width: 100%;
+    background-color: red($color: #00000000);
+  }
